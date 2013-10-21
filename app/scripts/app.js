@@ -9,7 +9,11 @@ angular.module('sharesdkApp', [
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        controller: 'FeatureCtrl'
+      })
+      .when('/feature', {
+        templateUrl: 'views/feature.html',
+        controller: 'FeatureCtrl'
       })
       .otherwise({
         redirectTo: '/'

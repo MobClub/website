@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form class="form-search">
+                <div class="input-append">
+                <input type="text" ng-model="search" class="span2 search-query">
+                    <button type="submit" class="btn"><i class="icon-search"></i></button>
+                </div>
+            </form>
+
+            <ul class="row list-unstyled" ng-repeat="provider in services | filter:search ">
+                <li>
+                    <img src="{{provider.service.img}}">
+                    {{provider.service.name}}
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+            <h4 class="sub_headline text-muted">Social trends</h4>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+[
+    {
+        "service":  {
+            "name"  : "Twitter",
+            "img"   : "http://icons.iconarchive.com/icons/uiconstock/socialmedia/96/Twitter-icon.png"
+        }
+    },
+    {
+        "service" : {
+            "name" : "Weibo",
+            "img"  : "http://icons.iconarchive.com/icons/martz90/circle-addon2/96/weibo-icon.png"
+        }
+    },
+    {
+        "service" : {
+            "name" : "Google+",
+            "img"  : "http://icons.iconarchive.com/icons/uiconstock/socialmedia/96/Google-Plus-icon.png"
+        }
+    },
+    {
+        "service" : {
+            "name" : "Facebook",
+            "img"  : "http://icons.iconarchive.com/icons/martz90/circle-addon2/96/weibo-icon.png"
+        }
+    },
+    {
+        "service" : {
+            "name" : "Instagram",
+            "img"  : "http://icons.iconarchive.com/icons/uiconstock/socialmedia/96/Instagram-icon.png"
+        }
+    }
+]
