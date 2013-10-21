@@ -1,0 +1,35 @@
+nav {
+    padding: 30px;
+    background: #FFFFFF;
+    color: #6f7c82;
+}
+
+nav ul a{
+    color: #6f7c82;
+    text-decoration: none;
+}
+
+a.carousel-control {
+    width: 5%;
+}
+
+.container .jumbotron {
+    background-color: #2BA5F1;
+}
+
+.container .jumbotron h2#headline{
+    color: #FFFFFF;
+    font-size: 27px;
+}
+
+.container .jumbotron p#subheadline{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.main_text {
+}
+
+.main_text h1 {
+    font-size: 1.6em;
+}
